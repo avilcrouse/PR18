@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PR18.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <Entry Placeholder="Введите ID" x:Name="entryNumber" Keyboard="Numeric"/>
+            <Button x:Name="buttonResult" Text="Вывести результат" Clicked="ButtonResult_Clicked" />
+            <StackLayout x:Name="staclLayout" HorizontalOptions="Center" VerticalOptions="Center">
+
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
